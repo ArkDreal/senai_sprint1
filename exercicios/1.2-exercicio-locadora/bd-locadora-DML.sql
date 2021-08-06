@@ -1,0 +1,23 @@
+USE LOCADORA2;
+GO
+
+INSERT INTO EMPRESA (nomeEmpresa)
+VALUES ('Koga Veiculos'), ('Ford');
+GO
+
+
+DELETE FROM EMPRESA
+WHERE idEmpresa = 2
+
+
+INSERT INTO MARCA (nomeMarca)
+VALUES ('Ford'), ('GM'), ('Fiat');
+GO
+
+INSERT INTO CLIENTE (nomeCliente)
+VALUES ('Andrey'), ('Amanda');
+GO
+
+INSERT INTO CLIENTE (CPF)
+VALUES ('434567888-90'), ('545675969-24');
+GO
